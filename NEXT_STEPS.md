@@ -19,10 +19,10 @@
 
 ### 1. Настройка окружения
 
-- [ ] Скопировать `.env.example` → `.env` для backend
-- [ ] Скопировать `.env.example` → `.env` для frontend
-- [ ] Сгенерировать SECRET_KEY для Django
-- [ ] Настроить ALLOWED_HOSTS при необходимости
+- [x] Скопировать `.env.example` → `.env` для backend
+- [x] Скопировать `.env.example` → `.env` для frontend
+- [x] Сгенерировать SECRET_KEY для Django
+- [x] Настроить ALLOWED_HOSTS при необходимости
 
 ### 2. Backend - Django Settings
 
@@ -231,24 +231,9 @@
 - [ ] Backup стратегия для SQLite
 - [ ] Мониторинг и алерты
 
----
-
-## Приоритеты
-
-**Критичные (для MVP):**
-1. Настройка окружения
-2. Backend модели + миграции
-3. Backend API (auth + курсы + задания)
 4. Frontend auth + dashboard
 5. Базовые CRUD операции
 
-**Важные:**
-6. Permissions и security
-7. Файловая загрузка
-8. Комментарии и уведомления
-9. Celery tasks
+**Важные:** 6. Permissions и security 7. Файловая загрузка 8. Комментарии и уведомления 9. Celery tasks
 
-**Опциональные:**
-10. Тесты
-11. API документация
-12. Production optimization
+**Опциональные:** 10. Тесты 11. API документация 12. Production optimization
