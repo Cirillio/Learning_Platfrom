@@ -1,0 +1,47 @@
+# Environment
+.env
+.env.local
+*.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+server/virtenv/
+server/venv/
+
+# Database
+*.sqlite3
+db.sqlite3
+server/db/
+
+# Django
+server/staticfiles/
+server/media/
+
+# Node
+node_modules/
+client/.nuxt/
+client/.output/
+client/dist/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml

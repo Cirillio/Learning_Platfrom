@@ -1,0 +1,34 @@
+# Dependencies
+node_modules/
+pnpm-lock.yaml
+
+# Nuxt
+.nuxt/
+.output/
+.cache/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Build
+dist/
